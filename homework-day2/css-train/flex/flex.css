@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.backg{
+    height: 40em;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 20em;
+    height: 20em;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 0;
+    }
+
+    .box {
+        width: 20em;
+        height: 20em;
+        background-color: rgb(38, 35, 31);
+        border-radius: 20px;
+    }
+}

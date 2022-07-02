@@ -1,0 +1,12 @@
+.box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: bisque;
+    width: 20em;
+    height: 20em;
+    border-radius: 20px;
+}
